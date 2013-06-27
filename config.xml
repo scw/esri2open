@@ -16,18 +16,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   namespace="esriopenaddin_addin">
     <ArcMap>
       <Commands>
-        <Button caption="Esri2Open" category="Esri2Open Add-In"
+        <Button caption="Convert Single File" category="Esri2Open Add-In"
         class="OpenStandard" id="esriopenaddin_standard.button"
         image="" message="" tip="Export data to GeoJSON, CSV, SQLite, and JSON.">
           <Help heading="" />
         </Button>
-        <Button caption="Esri2Open (merge)"
+        <Button caption="Merge and Convert"
         category="Esri2Open Add-In" class="OpenMerge"
         id="esriopenaddin_merge.button" image="" message="Merge a set of feature classes into a single GeoJSON, CSV, SQLite or JSON output."
         tip="">
           <Help heading="" />
         </Button>
-        <Button caption="Esri2Open (multiple)"
+        <Button caption="Convert Multiple Files"
         category="Esri2Open Add-In" class="OpenMultiple"
         id="esriopenaddin_multiple.button" image="" message="Export individual feature classes into GeoJSON, CSV, SQLite or JSON."
         tip="">
@@ -44,7 +44,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Toolbar>
       </Toolbars>
       <Menus>
-        <Menu caption="Esri 2 Open" category="Esri2Open Add-In"
+        <Menu caption="esri2open" category="Esri2Open Add-In"
         id="esriopenaddin_addin.menu" isRootMenu="false"
         isShortcutMenu="false" separator="false">
           <Items>
